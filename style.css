@@ -18,6 +18,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+#faq-block {
+  width: 500px;
+}
+
 .faq {
   display: flex;
   flex-direction: column;
@@ -40,7 +44,11 @@ div {
 }
 
 .answer {
-  display: block;
+  display: none;
+}
+
+.fa-chevron-down {
+  cursor: pointer;
 }
 
 h2 {
