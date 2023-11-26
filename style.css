@@ -18,7 +18,7 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.question {
+.faq {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -35,9 +35,17 @@ div {
   justify-content: space-between;
 }
 
+.question {
+  align-items: center;
+}
+
+.answer {
+  display: block;
+}
+
 h2 {
   font-family: arial;
   font-weight: 300;
   font-size: 18px;
-  margin: 1px;
+  margin: 0;
 }
